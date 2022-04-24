@@ -72,7 +72,7 @@ footer {
   margin-top: 40px;
   background-color: #008000;
   text-align: center;
-  font-size: 0.5em;
+  font-size: 1.0em;
   padding: 5px;
 }
 
@@ -82,39 +82,39 @@ footer a {
   text-decoration: none;
 }
 
-.grupos {
-  width: 100vh;
-  margin: 0 auto;
+.grupo-lista {
+  margin-left: 30px;
+
+}
+
+span {
+  font-weight: bolder;
+}
+
+.tabelas {
   background-color: #ffffff;
-  font-size: 0.8;
-
+  margin: 0 auto;
+  width: 100vh;
+  border-radius: 0px 0px 10px 10px;
+  padding: 20px 0 20px 0;
 }
 
-.grupos-e-f table {
-  display: inline-block;
-
-}
-
-.grupos-g-h table {
-  display: inline-block;
-}
-
-
-caption {
-  font-size: 1em;
-  padding: 10px;
-}
-
+table,
 th,
+tr,
 td {
   border: 1px solid;
+  border-collapse: collapse;
   padding: 5px;
+  text-align: center;
+}
+
+caption {
+  margin: 10px 0 10px 0;
+  font-size: 1.1em;
+  font-weight: bolder;
 }
 
 table {
-  border-collapse: collapse;
-  text-align: center;
-  width: 400px;
-  height: 400px;
-
+  margin: 0px 25% 0px 25%;
 }
