@@ -12,22 +12,21 @@ body {
 
 header>h1 {
   padding: 20px;
-  background-color: #82fe06;
+  background-color: #008000;
   text-align: center;
   color: #ffffff;
+
 }
 
 nav {
   padding: 20px;
-  background-color: #008000;
+  background-color: #f7df08;
 }
 
 nav>a {
-  color: #ffffff;
-  color: white;
   padding: 10px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 main {
@@ -69,7 +68,7 @@ main p {
 }
 
 footer {
-  margin-top: 40px;
+  margin-top: 10%;
   background-color: #008000;
   text-align: center;
   font-size: 1.0em;
@@ -84,6 +83,7 @@ footer a {
 
 .grupo-lista {
   margin-left: 30px;
+  padding: 20px 0 20px 0;
 
 }
 
@@ -91,20 +91,21 @@ span {
   font-weight: bolder;
 }
 
-.tabelas {
+.principal {
   background-color: #ffffff;
   margin: 0 auto;
   width: 100vh;
   border-radius: 0px 0px 10px 10px;
-  padding: 20px 0 20px 0;
+  border: 5px solid #008000;
+  border-top: none;
+  padding-bottom: 20px;
+
 }
 
-table,
 th,
 tr,
 td {
   border: 1px solid;
-  border-collapse: collapse;
   padding: 5px;
   text-align: center;
 }
@@ -115,6 +116,7 @@ caption {
   font-weight: bolder;
 }
 
-table {
-  margin: 0px 25% 0px 25%;
+.tabela table {
+  margin: 0 auto;
+  border-collapse: collapse;
 }
