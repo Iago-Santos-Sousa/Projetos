@@ -68,7 +68,7 @@ main p {
 }
 
 footer {
-  margin-top: 10%;
+  margin-top: 30px;
   background-color: #008000;
   text-align: center;
   font-size: 1.0em;
@@ -102,12 +102,20 @@ span {
 
 }
 
-th,
 tr,
+th,
 td {
-  border: 1px solid;
+  border: 1px solid #008000;
   padding: 5px;
   text-align: center;
+}
+
+th {
+  background-color: #f7df08;
+}
+
+tr {
+  background-color: #b5f850;
 }
 
 caption {
@@ -117,6 +125,8 @@ caption {
 }
 
 .tabela table {
-  margin: 0 auto;
+  margin: auto;
   border-collapse: collapse;
+  margin-bottom: 20px;
+  width: 628.203px;
 }
