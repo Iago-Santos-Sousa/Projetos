@@ -130,3 +130,15 @@ caption {
   margin-bottom: 20px;
   width: 628.203px;
 }
+
+.imagem-grupos {
+  padding-top: 20px;
+}
+
+.imagem-grupos>img {
+  width: 80%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  border: 5px solid #008000;
+}
