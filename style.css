@@ -87,6 +87,24 @@ footer a {
 
 }
 
+.estadios-lista {
+  margin-top: 30px;
+
+}
+
+.estadios-lista ul {
+  margin-block-start: 0.5em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px
+}
+
+.estadios-lista>ul {
+  list-style-position: inside;
+  columns: 2;
+}
+
 span {
   font-weight: bolder;
 }
@@ -131,14 +149,14 @@ caption {
   width: 628.203px;
 }
 
-.imagem-grupos {
-  padding-top: 20px;
-}
-
-.imagem-grupos>img {
+.imagem-todos>img {
   width: 80%;
   height: 100%;
   display: block;
   margin: 0 auto;
   border: 5px solid #008000;
+}
+
+.imagem-todos {
+  padding-top: 30px;
 }
