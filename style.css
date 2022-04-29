@@ -101,7 +101,7 @@ footer a {
 }
 
 .estadios-lista {
-  margin-top: 30px;
+  margin: 30px 0 0 30px;
 
 }
 
@@ -113,10 +113,11 @@ footer a {
   padding-inline-start: 20px
 }
 
-.estadios-lista>ul {
+/* .estadios-lista>ul {
   list-style-position: inside;
-  columns: 2;
-}
+  columns: 1;
+  max-width: max-content;
+} */
 
 
 span {
@@ -133,12 +134,17 @@ span {
   padding-bottom: 20px;
 }
 
-.tabela table {
-  text-align: center;
+#tabelas .tabela,
+table {
+  /* text-align: center; */
   margin: auto;
-  border-collapse: collapse;
+  /* border: 1px #008000; */
   margin-bottom: 20px;
-  /* width: 628.203px; */
+  border-collapse: collapse;
+  max-width: 100%;
+  text-align: center;
+  border: 1px solid #008000;
+  /* max-width: 628.203px; */
 }
 
 caption {
@@ -147,15 +153,23 @@ caption {
   font-weight: bolder;
 }
 
-tr td {
-  border: 1px solid #008000;
-  padding: 5px;
-  background-color: gainsboro;
+.tabela th {
+  padding: 5px 0 5px 0;
+  background-color: #008000;
+  color: white;
 }
 
-thead th {
-  border: 1px solid #008000;
-  background-color: #008000;
-  color: #ffffff;
+.tabela td,
+.tabela th {
   padding: 5px;
+  border-bottom: 2px solid #008000;
+}
+
+.coluna {
+  border-right: 2px solid #008000;
+}
+
+tbody:hover td[rowspan],
+tr:hover td {
+  background: #cac5c5;
 }
