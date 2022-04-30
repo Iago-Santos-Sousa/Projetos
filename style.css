@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #82fe06;
+  background-color: #008000;
 }
 
 header>h1 {
@@ -25,7 +25,7 @@ header>h2 {
   padding-bottom: 20px;
 }
 
-header p {
+h4 {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #008000;
@@ -35,20 +35,32 @@ header p {
 }
 
 nav {
-  padding: 20px;
+  width: 100%;
+  overflow: auto;
+  padding: 10px;
   background-color: #ffff00;
 }
 
-nav>a {
-  padding: 10px;
+nav li {
+  float: left;
+}
+
+nav ul {
+  margin: 0 0 0 2%;
+  list-style: none;
+}
+
+nav li a {
+  display: block;
+  padding: 10px 20px 10px 20px;
   text-decoration: none;
   font-weight: bolder;
   color: blue;
-
 }
 
-nav>a:hover {
+nav li a:hover {
   background-color: #008000;
+  border: solid 1px #008000;
   border-radius: 5px;
   color: #ffffff;
 }
@@ -57,7 +69,7 @@ main {
   max-width: 100vh;
   margin: 0 auto;
   text-align: justify;
-  border: 5px solid #008000;
+  border: 5px solid #ffff00;
   border-top: none;
   padding: 20px;
   border-radius: 0px 0px 10px 10px;
@@ -103,14 +115,6 @@ main p {
   padding-top: 30px;
 }
 
-/* footer {
-  margin-top: 30px;
-  background-color: #008000;
-  text-align: center;
-  font-size: 1.0em;
-  padding: 5px;
-} */
-
 footer {
   margin-top: 30px;
   background-color: #008000;
@@ -136,14 +140,6 @@ footer ul {
   margin: 30px 0 0 30px;
 
 }
-
-/* .estadios-lista ul {
-  margin-block-start: 0.5em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 20px
-} */
 
 ul {
   margin: 10px 10px 20px 10px;
@@ -171,7 +167,7 @@ span {
   margin: 0 auto;
   max-width: 100vh;
   border-radius: 0px 0px 10px 10px;
-  border: 5px solid #008000;
+  border: 5px solid #ffff00;
   border-top: none;
   padding-bottom: 20px;
 }
@@ -181,7 +177,7 @@ span {
   margin: 0 auto;
   max-width: 1200px;
   border-radius: 0px 0px 10px 10px;
-  border: 5px solid #008000;
+  border: 5px solid #ffff00;
   border-top: none;
   padding-bottom: 20px;
 }
@@ -191,7 +187,6 @@ table {
   margin: auto;
   margin-bottom: 20px;
   border-collapse: collapse;
-
   text-align: center;
   border: 1px solid #008000;
 
