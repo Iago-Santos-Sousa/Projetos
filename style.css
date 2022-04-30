@@ -17,6 +17,7 @@ header>h1 {
   text-align: center;
   color: #ffffff;
 
+
 }
 
 nav {
@@ -29,6 +30,7 @@ nav>a {
   text-decoration: none;
   font-weight: bolder;
   color: blue;
+
 }
 
 nav>a:hover {
@@ -166,7 +168,7 @@ table {
   margin: auto;
   margin-bottom: 20px;
   border-collapse: collapse;
-  max-width: 753.76px;
+
   text-align: center;
   border: 1px solid #008000;
 
