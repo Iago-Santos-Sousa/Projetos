@@ -16,8 +16,13 @@ header>h1 {
   background-color: #008000;
   text-align: center;
   color: #ffffff;
+}
 
-
+header>h2 {
+  text-align: center;
+  color: #ffffff;
+  background-color: #008000;
+  padding-bottom: 20px;
 }
 
 nav {
@@ -89,18 +94,27 @@ main p {
   padding-top: 30px;
 }
 
-footer {
+/* footer {
   margin-top: 30px;
   background-color: #008000;
   text-align: center;
   font-size: 1.0em;
   padding: 5px;
+} */
+
+footer {
+  margin-top: 30px;
+  background-color: #008000;
+  text-align: center;
+  font-size: 0.9em;
+  padding: 5px;
 }
 
-footer a {
+footer ul {
   color: white;
   font-weight: bolder;
   text-decoration: none;
+  list-style-type: none;
 }
 
 .grupo-lista {
