@@ -56,6 +56,7 @@ nav li a {
   text-decoration: none;
   font-weight: bolder;
   color: blue;
+  width: 100%;
 }
 
 nav li a:hover {
@@ -147,13 +148,12 @@ ul {
 
 }
 
-.container {
+.selecoes-lista {
   display: inline-block;
-
   margin: 20px 20px 20px 20px;
 }
 
-div.um {
+div.lista {
   display: inline-block;
   vertical-align: top;
 }
