@@ -41,17 +41,13 @@ nav {
   background-color: #ffff00;
 }
 
-/* nav li {
-  float: left;
-} */
-
 nav ul {
-  margin: 0 0 0 1%;
+  margin: 0 0 0 0.5%;
   list-style: none;
 }
 
 nav li a {
-  padding: 10px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
   text-decoration: none;
   font-weight: bolder;
   color: blue;
@@ -186,6 +182,12 @@ span {
   padding-bottom: 20px;
 }
 
+caption {
+  margin: 10px 0 10px 0;
+  font-size: 1.1em;
+  font-weight: bolder;
+}
+
 #tabelas .tabela,
 table {
   margin: auto;
@@ -193,13 +195,6 @@ table {
   border-collapse: collapse;
   text-align: center;
   border: 1px solid #008000;
-
-}
-
-caption {
-  margin: 10px 0 10px 0;
-  font-size: 1.1em;
-  font-weight: bolder;
 }
 
 .tabela th {
