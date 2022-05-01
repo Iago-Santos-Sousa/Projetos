@@ -41,9 +41,9 @@ nav {
   background-color: #ffff00;
 }
 
-nav li {
+/* nav li {
   float: left;
-}
+} */
 
 nav ul {
   margin: 0 0 0 1%;
@@ -51,12 +51,16 @@ nav ul {
 }
 
 nav li a {
-  display: block;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   font-weight: bolder;
   color: blue;
   width: 100%;
+}
+
+nav li {
+  display: inline-block;
+  padding: 15px;
 }
 
 nav li a:hover {
@@ -216,5 +220,14 @@ caption {
 
 tbody:hover td[rowspan],
 tr:hover td {
-  background: #cac5c5;
+  background: #008000;
+  color: #ffffff;
 }
+
+/* tbody:nth-child(odd) {
+  color: #0202f8;
+}
+
+tbody:nth-child(even) {
+  font-weight: bolder;
+} */
