@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    function media() {
+      alert("Olá, vamos calcular sua média?")
+      var notaUm = Number(prompt("Insira a primeira nota:"))
+      var notaDois = Number(prompt("Insira a segunda nota:"))
+      var media = (notaUm + notaDois) / 2
+
+      document.getElementById("media").innerHTML = `Média das notas ${media.toFixed(2)}`
+
+      if ((media >= 6)) {
+        document.getElementById("mensagem").innerHTML = `Voçê foi aprovado`
+        document.getElementById("mensagem").style.color = "blue"
+      } else {
+        document.getElementById("mensagem").innerHTML = `Voçê foi reprovado`
+        document.getElementById("mensagem").style.color = "red"
+      }
+    }
+  </script>
+  <h1>Média notas JS</h1>
+  <button onclick="media()">Calcular média</button>
+  <br>
+  <span id="media"></span>
+  <br> 
+  <span id="mensagem"></span> 
+</body>
+
+</html>
