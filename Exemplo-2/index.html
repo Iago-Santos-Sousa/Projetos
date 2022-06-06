@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Programa cálculo peso ideal</h1>
+  <div class="conteudo">
+    
+      <form>
+        <p>Nome:
+          <input type="text" id="inNome" required>
+        </p>
+       <p>
+         Sexo:
+         Masculino
+         <input type="radio" id="inMasculino" name="sexo" required>
+         Feminino
+         <input type="radio" id="inFeminino" name="sexo" required>
+       </p>
+
+       <p>
+         Altura:
+         <input type="number" min="0" step="0.01" id="inAltura" required placeholder="Ex: 1.70">
+       </p>
+       
+        <p>
+          <input type="submit" value="Calcule o peso ideal">
+          <input type="reset" value="Limpar campos">
+        </p>
+      </form>
+  </div>
+  <h3></h3>
+  
+  
+  <script src="./script.js"></script>
+</body>
+</html>
